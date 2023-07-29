@@ -21,9 +21,9 @@ public class MaxMethod {
     }
 
     public static void main(String[] args) {
-        int[] array = {4, 7, 1, 9, -2, 5};
-        int result = max(array);
-        System.out.println("The maximum value in the array is: " + result);
+        int[] vals = new int[]{ -2, 0, 10, 5 };
+        int result = MaxMethod.max(vals);
+        System.out.println(result == 10); // true
     }
 }
 
